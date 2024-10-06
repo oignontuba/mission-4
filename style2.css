@@ -27,28 +27,24 @@ nav button :hover{
     box-shadow:  5px 5px 10px black ;
     transform: translateY(-5px);
 }
-.thomas{
-    transition: all 0.3s ease;
-}
-.thomas a:hover {
-    transition: all 0.3s ease;
-    transform: translateY(-5px);
-}
-.menu {
-    display: flex;
-    justify-content: center;
+
+.menu div {
+    display: flex;    
     gap: 20px;
     margin-bottom: 30px;
 }
+.menu a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
 iframe{
     border: 3px solid green;
     width: 100%;
 
 }
-
 footer
-{
-    
+{    
     background-color: white;
     position: fixed;
     bottom: 0;
