@@ -1,0 +1,27 @@
+body {
+    background-color: aquamarine;
+}
+li 
+{
+    color:blue ;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    
+}
+.contener {
+    display: flex; /* or inline-flex */
+    
+    flex-wrap:  wrap; 
+    justify-content: space-between;
+  }
+  .contener div {
+    margin-top: 5px;
+  }
+footer{
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
